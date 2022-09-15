@@ -14,6 +14,19 @@ public class Celular {
     public Celular(boolean encendido) {
         this.encendido = encendido;
     }
+    public void Colocar(){
+        
+    }
+    public void Encender(){
+        
+    }
+    public void Apagar(){
+        
+    }
+    public void MostrarInfo(){
+        
+    }
+    
     
     
 }
