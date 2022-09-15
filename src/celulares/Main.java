@@ -8,7 +8,7 @@ package celulares;
  *
  * @author mativ
  */
-public class Celulares {
+public class Main {
 
     /**
      * @param args the command line arguments
