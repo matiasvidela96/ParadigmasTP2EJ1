@@ -10,13 +10,15 @@ package celulares;
  */
 public class Celular {
     private boolean encendido;
+    public Bateria bat;
 
     public Celular(boolean encendido) {
         this.encendido = encendido;
     }
-    public void Colocar(){
-        
+    public void Colocar(Bateria objbat){
+        this.bat = objbat;
     }
+    
     public void Encender(){
         
     }
