@@ -8,7 +8,7 @@ package celulares;
  *
  * @author mativ
  */
-public class Celular {
+public class Celular extends Dispositivo {
     private boolean encendido;
     public UnidadModular unModular;    
 
