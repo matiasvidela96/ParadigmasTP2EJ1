@@ -9,5 +9,17 @@ package celulares;
  * @author Augusto Ana
  */
 public class Bateria {
+    double amperaje;
+    
+    double voltaje;
+    
+    String nombreModelo;
+
+    public Bateria(double amperaje, double voltaje, String nombreModelo) {
+        this.amperaje = amperaje;
+        this.voltaje = voltaje;
+        this.nombreModelo = nombreModelo;
+    }
+    
     
 }

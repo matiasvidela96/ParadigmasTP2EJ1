@@ -11,9 +11,13 @@ package celulares;
 public class Celular {
     private boolean encendido;
     public Bateria bat;
+    /*=======*/
+    public UnidadModular unModular;    
+
 
     public Celular(boolean encendido) {
         this.encendido = encendido;
+        this.unModular = new UnidadModular ();
     }
     public void Colocar(Bateria objbat){
         this.bat = objbat;
@@ -28,6 +32,24 @@ public class Celular {
     public void MostrarInfo(){
         
     }
+
+    public boolean isEncendido() {
+        return encendido;
+    }
+
+    public void setEncendido(boolean encendido) {
+        this.encendido = encendido;
+    }
+
+    public UnidadModular getUnModular() {
+        return unModular;
+    }
+
+    public void setUnModular(UnidadModular unModular) {
+        this.unModular = unModular;
+    }
+    
+    
     
     
     
