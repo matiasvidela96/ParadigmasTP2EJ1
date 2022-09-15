@@ -10,15 +10,19 @@ package celulares;
  */
 public class Celular extends Dispositivo {
     private boolean encendido;
+    public Bateria bat;
+    /*=======*/
     public UnidadModular unModular;    
+
 
     public Celular(boolean encendido) {
         this.encendido = encendido;
         this.unModular = new UnidadModular ();
     }
-    public void Colocar(){
-        
+    public void Colocar(Bateria objbat){
+        this.bat = objbat;
     }
+    
     public void Encender(){
         
     }
